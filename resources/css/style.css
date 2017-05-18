@@ -1,1 +1,26 @@
+/*Simple Selectors*/
 
+/*menuhead*/
+.menuhead header{
+  display: inline-flex;
+  border-bottom: 1px solid black;
+}
+
+.menuhead img{
+  justify-content: flex-start;
+}
+
+.menuhead h1 {
+  color: MediumAquamarine;
+}
+
+.menuhead nav{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menuhead a {
+  font-family: Verdana, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
