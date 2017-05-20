@@ -30,8 +30,45 @@ body {
 }
 
 .menuitem a {
+    margin: 0 auto;
+    height: 80px;
     color: black;
+    padding: 0 10px;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
+
+.menuitem a:hover {
+    background-color: MediumAquamarine;
+    color: white;
+    padding: 0 10px;
+    margin: 0 auto;
+    height: 80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.menuitem a:active {
+    background-color: MediumAquamarine;
+    color: black;
+    padding: 0 10px;
+    margin: 0 auto;
+    height: 80px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+/*
+.menuitem a:hover {
+    color: MediumAquamarine;
+    font-weight: bold;
+    text-decoration: none;
+}*/
 
 
 /* Banner Menu Top - Flex Stuff */
@@ -73,10 +110,6 @@ body {
 
 .logoitem {
     margin: 0 6px;
-}
-
-.menuitem {
-    margin: 0 10px;
 }
 
 .logoitem a {
