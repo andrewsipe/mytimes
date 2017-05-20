@@ -16,10 +16,11 @@ body {
 
 .bannermenu_fc {
     position: fixed;
+    z-index: 10;
     width: 100%;
     height: 80px;
     background-color: white;
-    border-bottom: 1px solid DarkSlateGrey;
+    border-bottom: 1px solid #4a4a4a;
 }
 
 
@@ -30,7 +31,6 @@ body {
 }
 
 .menuitem a {
-    margin: 0 auto;
     height: 80px;
     color: black;
     padding: 0 10px;
@@ -46,8 +46,9 @@ body {
     background-color: MediumAquamarine;
     color: white;
     padding: 0 10px;
-    margin: 0 auto;
     height: 80px;
+    -webkit-box-shadow: inset 0 0 0 10px #rgb;
+    box-shadow: inset 0 -10px 0 0 #4a4a4a;
     font-weight: bold;
     text-decoration: none;
 }
@@ -61,14 +62,6 @@ body {
     font-weight: bold;
     text-decoration: none;
 }
-
-
-/*
-.menuitem a:hover {
-    color: MediumAquamarine;
-    font-weight: bold;
-    text-decoration: none;
-}*/
 
 
 /* Banner Menu Top - Flex Stuff */
@@ -115,4 +108,91 @@ body {
 .logoitem a {
     color: inherit;
     text-decoration: none;
+}
+
+
+/* Main Body - Flex Stuff
+
+.mainbody_fc {
+    overflow: scroll;
+    font-family: Helvetica;
+    color: black;
+    background-color: orange;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column-reverse;
+    height: 50vh;
+}
+
+.body_fc {
+    overflow: scroll;
+    width: 100%;
+    display: flex;
+    background-color: peachpuff;
+    flex-grow: 1;
+}
+
+.lead {
+    display: block;
+    z-index: 5;
+    flex-shrink: 2;
+    background-color: honeydew;
+}
+
+.wrapstories {
+    flex-shrink: 3;
+    background-color: DeepSkyBlue;
+}
+
+.sidebar {
+    width: 160px;
+    background-color: SteelBlue;
+}
+*/
+
+
+/* Footer Menu */
+
+.footermenu_fc {
+    height: 325px;
+    background-color: MediumAquamarine;
+    font-weight: normal;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footermenu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.footerlogoitem a {
+    text-decoration: none;
+    font-family: Georgia, serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    padding-right: 20px;
+    border-right: 2px solid white;
+}
+
+.footermenuitem a {
+    font-size: 12px;
+    font-weight: normal;
+    color: black;
+    margin: auto;
 }
