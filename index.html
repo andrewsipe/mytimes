@@ -1,49 +1,137 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-  <meta charset="utf-8" />
-  <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
-  <title>My Times</title>
-</head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="./resources/css/reset.css" rel="stylesheet">
+    <link href="./resources/css/style.css" rel="stylesheet">
+    <title>My Times</title>
+  </head>
 
-<body>
-  <div class="bannermenu_fc">
-    <header class="logo">
-      <div class="logoitem"><a href="#home"><img src="./resources/images/img-myt-logo.jpg" alt="MYT logo icon" /></a></div>
-      <div class="logoitem"><a href="#home">My Times</a></div>
-    </header>
-    <nav class="menu">
-      <div class="menuitem"><a href="#world">World</a></div>
-      <div class="menuitem"><a href="#us">U.S.</a></div>
-      <div class="menuitem"><a href="#tech">Tech</a></div>
-      <div class="menuitem"><a href="#science">Science</a></div>
-    </nav>
-  </div>
-
-  <!--Main Body
-  <div class="mainbody_fc">
-    <div class="body_fc">
-      <div class="lead">LeadStory</div>
-      <div class="wrapstories">Stories</div>
-      <div class="sidebar">Sidebar</div>
-      <div class="sidebar">Sidebar</div>
-    </div>
-  </div>-->
-
-  <!-- Footer Menu -->
-  <div class=footermenu_fc>
-    <footer>
-      <nav class="footermenu">
-        <div class="footerlogoitem"><a href="#home">MYTimes</a></div>
-        <div class="footermenuitem"><a href="#world">World</a></div>
-        <div class="footermenuitem"><a href="#us">U.S.</a></div>
-        <div class="footermenuitem"><a href="#tech">Tech</a></div>
-        <div class="footermenuitem"><a href="#science">Science</a></div>
+  <body>
+    <!-- Header =============================================================-->
+    <header>
+      <a href="./index.html">
+        <div class="logotitle">
+          <img src="./resources/images/img-myt-logo.jpg" alt="my times logo"/>
+          <span>My Times</span>
+        </div>
+      </a>
+      <nav>
+        <span>
+          <a href="#world">World</a>
+        </span>
+        <span>
+          <a href="#us">U.S.</a>
+        </span>
+        <span>
+          <a href="#tech">Tech</a>
+        </span>
+        <span>
+          <a href="#science">Science</a>
+        </span>
       </nav>
-      <p>&copy; 2017, My Times (A Division of Codecademy bite)</p>
-    </footer>
-  </div>
-</body>
+    </header>
 
+    <!-- Main content =======================================================-->
+    <section>
+      <div class="maincontent">
+
+        <!-- Section - large column =========================================-->
+        <div class="column large">
+          <!-- Lead Article =================================================-->
+
+          <div class="lead imagestory">
+            <span>Mother of Three Buys Tuna Steak at Phish Concert. Leaves, &ldquo;Feeling Funny.&rdquo;</span>
+          </div>
+          <article>
+            <p>MONUMENT VALLEY, AZ - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec nisl at augue dapibus dignissim. Nunc condimentum rutrum metus, ac eleifend lacus viverra nec. Proin ultrices egestas diam sed mollis. Nulla sapien massa, dictum vitae est et, pellentesque rutrum risus. Nunc volutpat, metus ac rutrum tempus, orci nisi porttitor dolor, sit amet luctus metus est ut mauris. Quisque vulputate nisl vitae massa rhoncus, at sagittis elit accumsan. Etiam tempus, lorem quis blandit imperdiet, enim dui lobortis tortor, sit amet lobortis arcu ex id odio. Nam fermentum nulla et eros bibendum, sed ullamcorper massa scelerisque. Vestibulum aliquet placerat leo a hendrerit. Nulla non sagittis neque. Nullam sit amet fringilla massa.</p>
+          </article>
+          <div class="group">
+            <article>
+              <div class="textstory">
+                <span>Orca Spends Vacation at Land World Puget</span>
+                <p>PUGET, SO - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
+              </div>
+            </article>
+            <article>
+              <div class="imagestory earth">
+                <span>Earth Spins Backwards for 2017</span>
+              </div>
+            </article>
+          </div>
+          <div class="group">
+            <article>
+              <div class="textstory">
+                <span>Burger for Breakfast: How Early is too Early?</span>
+                <p>Mew York, MY - Sed felis elit, faucibus et ipsum vel, vehicula ultrices purus. Sed congue odio vitae malesuada rhoncus. Integer vitae nisi pulvinar ante accumsan...</p>
+              </div>
+            </article>
+            <article>
+              <div class="imagestory research">
+                <span>Research Shows Cameras Erase Memory</span>
+              </div>
+            </article>
+          </div>
+        </div>
+        <!-- Section - medium column ========================================-->
+        <div class="column medium">
+          <article>
+            <div class="textstory">
+              <span>FBI Finds Action Star Guilty of False Advertising</span>
+              <p>WASHINGTON DC - Donec luctus sem augue, rutrum posuere orci aliquam sed. Nam vitae aliquam lectus. Sed tempor tortor est, nec sagittis eros tincidunt sed. Morbi venenatis condimentum sem, vitae sollicitudin turpis pulvinar eget. Morbi pellentesque consectetur mi id auctor. Phasellus tincidunt orci mauris, placerat pharetra urna fringilla vitae. Morbi eget rutrum urna. Cras condimentum augue ut ante sollicitudin interdum. Pellentesque cursus dolor at tincidunt cursus. Vestibulum blandit aliquam felis...</p>
+            </div>
+          </article>
+          <article>
+            <div class="imagestory cats">
+              <span>Cats in Control-Is It a Thing?</span>
+            </div>
+            <p>BROOKLYN, NY - In molestie nulla sodales sit amet. Proin vulputate, ipsum porta aliquam commodo, nunc nibh tincidunt lorem, vel consectetur neque mi vel neque. Mauris ultricies, nulla scelerisque sollicitudin lobortis, dui est sodales sapien, a vestibulum velit diam eget felis. Vivamus dignissim lacinia dolor, quis commodo tellus pellentesque in.</p>
+          </article>
+        </div>
+        <!-- Section - small column =========================================-->
+        <div class="column small">
+          <img src="./resources/images/img-news-bite.png" alt="chocolate chip cookie with bite">
+          <article>
+            <div class="newsbite">
+              <span>NEWS BITES</span>
+              <p>Cat Emoji Goes Viral Buy
+              </p>
+              <p>Youtube Views Home</p>
+              <p>Business Advertising Ideas</p>
+              <p>Advertising Internet Online</p>
+              <p>Illustration in Marketing</p>
+              <p>Materials Finally a Top Secret Way You Can</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+    <footer>
+      <div class="row">
+        <div class="mytimes">
+          <a href="index.html">
+            MY Times</a>
+        </div>
+        <nav>
+          <span>
+            <a href="#world">MY World</a>
+          </span>
+          <span>
+            <a href="#us">U.S.</a>
+          </span>
+          <span>
+            <a href="#tech">Tech</a>
+          </span>
+          <span>
+            <a href="#science">Science</a>
+          </span>
+        </nav>
+      </div>
+      <p>&copy;2017, My Times (A Division of Codecademy bite)</p>
+    </footer>
+  </body>
 </html>
